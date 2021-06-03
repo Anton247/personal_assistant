@@ -13,4 +13,7 @@ def write_msg(id, text):
 for event in longpoll.listen():
         if event.type == VkEventType.MESSAGE_NEW:
              if event.to_me:
-                  write_msg(event.user_id, "Хай")
+                if event.text == "Привет":
+                  write_msg(event.user_id, "и тебе привет")
+                elif event.text == "как дела?":
+                    write_msg(event.user_id, "норм")
