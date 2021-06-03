@@ -1,7 +1,7 @@
 # В файле settings.py хранятся переменные
 # VK_TOKEN и WEATHER_TOKEN
 settings.py
-
+vk_config.v2.json
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows,python,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,windows,python,linux
 
